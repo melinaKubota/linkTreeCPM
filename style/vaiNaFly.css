@@ -425,16 +425,15 @@ video{
 
 .butonFlutuante{
     position: fixed;
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     bottom: 40px;
     right: 40px;
     background-color: #25d366;
     color: #fff;
-    border-radius: 50px;
+    border-radius: 20px;
     text-align: center;
     font-size: 52px;
     box-shadow: 1px, 1px, 2px, #888;
     z-index: 1000;
 }
-
