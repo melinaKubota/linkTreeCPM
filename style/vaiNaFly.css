@@ -5,8 +5,6 @@
     padding: 0;
 }
 body{
-   /*  margin: 0;
-    padding: 0; */
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     max-width: 100vw;
@@ -21,15 +19,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1%, 3%;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    background-color: #e82139;
 }
 
 .cabecalho{
     height: 5em;
     margin-bottom: 1em;
-    position: relative;
+    position: fixed;
     text-align: center;
 }
 
@@ -40,7 +35,7 @@ header{
     width: 100%;
     padding: 3% 0;
     z-index: 1000;
-    background-color: #00296b;
+    background-color: #00296b91;
     color: #fff;
     will-change: top,transform;
     transition-duration: .2s;
@@ -52,30 +47,15 @@ header{
     pad: 0 0.2em;
 }
 
-.cabecalhoDentro{
-    position: relative;
-    max-width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 0.2em;
-    box-sizing: border-box;
-    display: block;
+.initial{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    background-color: #00296b;
+    color: #fff;
+    padding: 3% 0;
 }
-
-.cabecalho ul{
-    list-style: none;
-}
-
-.cabecalho a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.cabecalho a:hover {
-    color: #000;
-    transition: 300ms;
-}
-
 
 #assistaVideo{
     padding: 0.1%;
