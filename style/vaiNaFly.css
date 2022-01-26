@@ -30,7 +30,7 @@ header{
 
 .cabecalho{
     font-family: "Merriweather Sans";
-    height: 3em;
+    height: 3.5em;
     margin-bottom: 1em;
     position: fixed;
     text-align: center;
@@ -103,19 +103,19 @@ header{
 }
 #pVermelho{
     color: #e82139;
-    font-size: 35px;
+    font-size: 55px;
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 60px;
+    margin-top: 85px;
 }
 
 .h3Bola{
-    font-size: 17px;
+    font-size: 25px;
     padding: 2%;
 }
 
 .h3Video{
-    font-size: 14px;
+    font-size: 20px;
     padding: 2%;
 }
 
@@ -152,6 +152,7 @@ header{
 .posVideo{
     padding: 2%;   
     color: #FFF;
+    font-size: 20px;
 }
 
 .btn{
@@ -186,6 +187,9 @@ header{
     align-items: center;
 }
 
+.simbolo{
+    width: 50%;
+}
 /* quando clica com o mouse */
 .btn:focus{
     box-shadow: none;
@@ -487,7 +491,7 @@ header{
 }
 
 .bi{
-    vertical-align: -0.1em;
+    vertical-align: -0.089em;
 }
 /* RODAPE */
 .rodape {
