@@ -5,12 +5,21 @@ function displayTempo(){
     display.classList.toggle('active');
 }
 
+
+function displayCorrer(){
+    var arrow = document.getElementById('animati');
+    arrow.classList.toggle('rotate');
+    var display = document.getElementById('correr');
+    display.classList.toggle('active');
+}
+
 function displayGarantia(){
     var arrow = document.getElementById('animati');
     arrow.classList.toggle('rotate');
     var display = document.getElementById('garantia');
     display.classList.toggle('active');
 }
+
 function displayAcesso(){
     var arrow = document.getElementById('anima');
     arrow.classList.toggle('rotate');
