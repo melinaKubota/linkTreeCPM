@@ -184,6 +184,11 @@ header{
     justify-content: center;
     box-shadow: 0px 14px 80px rgb(255 73 0 / 49%), 0px 5.84887px 33.4221px rgb(255 73 0 / 35%), 0px 3.12708px 17.869px rgb(255 73 0 / 29%), 0px 1.75302px 10.0172px rgb(255 73 0 / 25%), 0px 0.931014px 5.32008px rgb(255 73 0 / 20%), 0px 0.387416px 2.21381px rgb(255 73 0 / 14%);
 }
+.btn .linkVenda{
+   /*  width: 50%; */
+    line-height: 23px;
+    padding: 20px;
+}
 
 .linkVenda{
     text-decoration: none;
@@ -200,10 +205,7 @@ header{
     
 }
 
-.btnOferta{
-    margin:20px;
-    animation: animacaoBotao 1s 1s ease-in-out ;
-}
+
 
 /* button */
 #acessoImediato{
@@ -414,7 +416,7 @@ header{
    /*  padding-bottom: 5%;    */
 }
 
-#apresentacao p{
+.perfil p{
     font-weight: bolder;
     text-align: justify; 
     color: #FFF;
