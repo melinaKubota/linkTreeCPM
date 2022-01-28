@@ -387,7 +387,7 @@ header{
     color: #ffffff;
     font-family: "Montserrat", Sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 800;
     font-style: oblique;
 }
 
@@ -396,6 +396,7 @@ header{
 }
 .escondido{
     margin: 20px;
+    font-weight: 600;
 }
 
 .depoimento{
