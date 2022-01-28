@@ -153,6 +153,7 @@ header{
     padding: 2%;   
     color: #FFF;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .btn{
@@ -287,16 +288,21 @@ header{
 .paragrafoUm{
     margin: 5px;
 }
-.tituloFase{
-    color: #e82139;
-}
+
 .barra{
     color: #e82139;
     font-weight: 1000;
 }
 .tituloFase{
-    text-transform: uppercase;
+    color: #e82139;
+    text-transform: uppercase; 
+    font-weight: bold;
 }
+.textoFase{
+    font-weight: 800;
+}
+
+
 /* BONUS */
 #bonus{
     margin: 5%;
