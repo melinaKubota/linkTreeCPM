@@ -254,11 +254,12 @@ header{
 }
 
 .provaSocial{
-    grid-template-columns: 2;
+    grid-template-columns: 1;
     margin: 2%;
 }
 .prova{
-    width: 45%;
+    width: 85%;
+    margin-bottom: 3px;
 }
 
 .subtituloAzul{
